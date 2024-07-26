@@ -1,0 +1,14 @@
+{
+  "name": "mmm-windyv3",
+  "version": "1.0.0",
+  "description": "Windy.com module for MagicMirror",
+  "main": "MMM-WindyV2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}

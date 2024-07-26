@@ -20,7 +20,7 @@ body {
 }
 
 #windy #embed-zoom .zoom-ctrl {
- display: none;
+  display: none;
 }
 
 #windy #bottom div {
@@ -29,27 +29,27 @@ body {
 }
 
 #windy #bottom #progress-bar #playpause {
-  display:none; 
+  display: none;
 }
 
 #windy #bottom.shy.left-border.right-border .metric-legend {
-  position:absolute;
+  position: absolute;
   left: 70%;
-  width:30%;
+  width: 30%;
   height: 20px;
-  display:inline-block;
-  line-height:1.5;
-  background-color:#7c7c7c;
-  white-space:nowrap;
-  font-size:12px;
-  box-shadow:4px 4px 14px 0 black;
+  display: inline-block;
+  line-height: 1.5;
+  background-color: #7c7c7c;
+  white-space: nowrap;
+  font-size: 12px;
+  box-shadow: 4px 4px 14px 0 black;
   border-radius: 20px;
   bottom: 20px;
 }
- 
- #windy #bottom.shy.left-border.right-border #progress-bar  {
-  position:absolute;
-  display:inline-block;
+
+#windy #bottom.shy.left-border.right-border #progress-bar {
+  position: absolute;
+  display: inline-block;
   height: 66px;
   width: 100%;
   border-radius: 6px;
@@ -72,4 +72,3 @@ body {
   text-shadow: 0 0 4px black;
   color: #fff3e1;
 }
-

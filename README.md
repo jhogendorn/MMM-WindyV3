@@ -1,6 +1,7 @@
 # MMM-WindyV2
 
 ### INTRODUCTION
+
 This is a module for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds the [Windy](https://www.windy.com/) weather map and was originally written by santi4488 as [MMM-windy](https://github.com/santi4488/MMM-windy). This is an extensive re-write that adds several new options, like adding your Lat & Lon to center on your location, setting zoom level and most importantly - adding the layer your prefer to see. You can choose from: wind, rain, clouds, temperature, pressure, currents and waves (free version). Further it now has support for voice control through [MMM-VoiceControlMe](https://github.com/Mykle1/MMM-VoiceControlMe) :)
 
 Enjoy!
@@ -8,19 +9,23 @@ Enjoy!
 ![alt text](https://github.com/TheStigh/MMM-WindyV2/blob/master/windy.gif)
 
 #### UPDATE 03.03.2019:
+
 - Added option for multiple layers to rotate with time interval
 
 #### UPDATE 06.03.2019:
+
 - Added support for voice control by MMM-VoiceControlMe
-	- Can change between overlays
-	- Can zoom in & out
-	- At certain zoom level you get streets rather than just colors
-	
+  - Can change between overlays
+  - Can zoom in & out
+  - At certain zoom level you get streets rather than just colors
+
 #### UPDATE 07.03.2019:
+
 - Added css to show weatherscale data in lower right corner
 - Added support for different metrics
 
 #### UPDATE 09.03.2019:
+
 - Added support for play weather animation by voice control
 - Added support for retaining zoom level between changing layers
 - CSS cleanups
@@ -29,11 +34,14 @@ Enjoy!
 ... commands for voice are at the bottom of this Readme
 
 ### TO-DO:
+
 - Add support for voice control from MMM-AssistantMk2
 
 ### CONFIGURATION
+
 You will need to get your own API key which can be obtained [here](https://api4.windy.com/api-key).
 To use the module, add the following to the modules array in your `config/config.js` file:
+
 ```
 {
 	  module: "MMM-WindyV2",
@@ -58,9 +66,11 @@ To use the module, add the following to the modules array in your `config/config
 ```
 
 ### VOICE-CONTROL SUPPORTED
-You want to voice-control Windy, you say? 
+
+You want to voice-control Windy, you say?
 Go to [MMM-VoiceControlMe](https://github.com/Mykle1/MMM-VoiceControlMe) and follow instructions to install.
 Commands to control MMM-WindyV2 are:
+
 - show me rain
 - show me temperature
 - show me pressure
@@ -69,7 +79,7 @@ Commands to control MMM-WindyV2 are:
 - show me wind
 - zoom in
 - zoom out
-- Show default zoom	// shortcut to go back to default zoom from config.js
-- Rotate layer		// start the rotation if set to true and changed zoom level
-- Play animation        
+- Show default zoom // shortcut to go back to default zoom from config.js
+- Rotate layer // start the rotation if set to true and changed zoom level
+- Play animation
 - Cancel animation
