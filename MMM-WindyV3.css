@@ -23,6 +23,14 @@ body {
   display: none;
 }
 
+#windy #logo-wrapper {
+  display: none;
+}
+
+#windy #progress-bar {
+  display: none;
+}
+
 #windy #bottom div {
   margin-right: 320px;
   height: 20px;
