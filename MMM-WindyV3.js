@@ -51,7 +51,7 @@ Module.register("MMM-WindyV3", {
   },
 
   getScripts: function () {
-    return ["https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"];
+    return ["https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"];
   },
 
   getDom: function () {
