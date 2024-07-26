@@ -28,7 +28,7 @@ Module.register("MMM-WindyV3", {
     zoomLevel: 6, // set zoom level of map
     showLayer: "wind", // Supported layers in free API versions are: wind, rain, clouds, temp, pressure, currents, waves
     rotateLayers: false, // if set to 'true' it will rotate layers as specified in 'layersToRotate'
-    layersToRotate: ["wind", "rain"], // choose from wind, rain, clouds, temperature, pressure, currents, waves
+    layersToRotate: ["wind", "rain", "radar"], // choose from wind, rain, clouds, temperature, pressure, currents, waves
     delayRotate: 5000, // in milliseconds, default per 5 seconds
     wMinZoom: 3, // set minimum zoom level for WindyV2
     wMaxZoom: 17, // set maximum zoom level for WindyV2
@@ -125,6 +125,7 @@ Module.register("MMM-WindyV3", {
         zoom: this.config.zoomLevel,
         minZoom: 3,
         maxZoom: 18,
+        overlay: 'radar',
       };
 
       if (!window.copy_of_W) {
