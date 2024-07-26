@@ -1,5 +1,5 @@
 /**
- * @file MMM-WindyV2.js
+ * @file MMM-WindyV3.js
  *
  * @inspirationalModule MMM-windy
  * @re-written by @TheStigh
@@ -12,7 +12,7 @@
 /**
  * @external MM 	  @see https://github.com/MichMich/MagicMirror/blob/master/js/main.js
  *
- * @module MMM-WindyV2
+ * @module MMM-WindyV3
  *
  * @requires MM
  */
@@ -30,8 +30,8 @@ Module.register("MMM-WindyV3", {
     rotateLayers: false, // if set to 'true' it will rotate layers as specified in 'layersToRotate'
     layersToRotate: ["wind", "rain", "radar"], // choose from wind, rain, clouds, temperature, pressure, currents, waves
     delayRotate: 5000, // in milliseconds, default per 5 seconds
-    wMinZoom: 3, // set minimum zoom level for WindyV2
-    wMaxZoom: 17, // set maximum zoom level for WindyV2
+    wMinZoom: 3, // set minimum zoom level for WindyV3
+    wMaxZoom: 17, // set maximum zoom level for WindyV3
     windyMetric: "m/s", // 'kt', 'bft', 'm/s', 'km/h' and 'mph'
     updateTimer: 60 * 60 * 1000 * 6, // update per 6 hours
     retainZoom: true, // retain zoomlevel between changing overlays
@@ -476,6 +476,6 @@ Module.register("MMM-WindyV3", {
   },
 
   getStyles: function () {
-    return ["MMM-WindyV2.css"];
+    return ["MMM-WindyV3.css"];
   },
 });
