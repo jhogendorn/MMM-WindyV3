@@ -19,7 +19,7 @@
 
 var currentZoom;
 
-Module.register("MMM-WindyV2", {
+Module.register("MMM-WindyV3", {
   defaults: {
     initLoadDelay: 50,
     apiKey: "", // insert your API key here
