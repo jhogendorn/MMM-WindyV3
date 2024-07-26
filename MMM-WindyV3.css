@@ -86,11 +86,11 @@ body {
 }
 
 #windy #mobile-ovr-select {
-  display: none;
+  display: none !important;
 }
 
 #windy #legend-mobile {
-  display: none;
+  display: none !important;
 }
 
 #windy .uiyellow {
