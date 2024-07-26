@@ -30,11 +30,11 @@ body {
     pointer-events: none; /* Allows clicks to pass through to the element beneath */
 }
 
-#windy #logo-wrapper {
+#windy #embed-zoom .zoom-ctrl {
   display: none;
 }
 
-#windy #progress-bar {
+#windy #logo-wrapper {
   display: none;
 }
 
@@ -64,7 +64,8 @@ body {
 
 #windy #bottom.shy.left-border.right-border #progress-bar {
   position: absolute;
-  display: inline-block;
+  display: none;
+  #display: inline-block;
   height: 66px;
   width: 100%;
   border-radius: 6px;
