@@ -125,7 +125,7 @@ Module.register("MMM-WindyV3", {
         zoom: this.config.zoomLevel,
         minZoom: 3,
         maxZoom: 18,
-        overlay: 'radar',
+        //overlay: 'radar',
       };
 
       if (!window.copy_of_W) {
