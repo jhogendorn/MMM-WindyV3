@@ -85,6 +85,14 @@ body {
   overflow: hidden;
 }
 
+#windy #mobile-ovr-select {
+  display: none;
+}
+
+#windy #legend-mobile {
+  display: none;
+}
+
 #windy .uiyellow {
   text-shadow: 0 0 4px black;
   color: #fff3e1;
